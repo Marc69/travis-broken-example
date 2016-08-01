@@ -1,1 +1,2 @@
-script: bash configure.sh controller.cfg
+sudo: required
+script: bash ./configure.sh controller.cfg
