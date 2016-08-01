@@ -1,2 +1,2 @@
 sudo: required
-script: bash configuration/configure.sh staging.cfg
+script: bash configuration/configure.sh images-compute.cfg
