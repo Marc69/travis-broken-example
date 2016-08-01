@@ -1,1 +1,1 @@
-script: configure.sh controller.cfg
+script: bash configure.sh controller.cfg
