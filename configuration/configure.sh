@@ -151,6 +151,8 @@ function apply_config {
 
     source "$POST_CONFIG"
     export POST_CONFIG
+    echo_info "POST_CONFIG: $POST_CONFIG"
+    echo_info "postscripts: ${#POSTLIST[@]}"
     
     # If we're running only handpicked scripts, we need to shift
     if (( $# > 1 )) ; then
