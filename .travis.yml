@@ -1,2 +1,2 @@
 sudo: required
-script: bash configuration/configure.sh images-compute.cfg
+script: bash configuration/configure.sh controller.cfg
