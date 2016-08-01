@@ -1,0 +1,44 @@
+# Additional package list
+# All empty lines and lines starting with a # will be ignored
+# No group names!
+
+# Packages that require complex post-install scripts (more than simply enabling
+# a service) go into their own post files.
+# Packages that come from an extra repo (which may not be enabled) go into the
+# additional-packages list.
+# The rest goes here.
+
+
+# standard tools
+bash-completion
+bzip2
+dejavu-sans-fonts
+gawk
+gzip
+ncurses-term
+time
+tree
+vim
+xorg-x11-xauth
+
+# network tools
+curl
+nc
+rsync
+wget
+
+# system tools
+createrepo
+ipmitool
+parted
+pciutils
+psmisc
+usbutils
+sg3_utils
+yum-plugin-versionlock
+yum-utils
+
+# dev tools
+git
+patch
+
